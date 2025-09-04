@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "aifutuerx_task.client", "aifutuerx_task.client\aifutuerx_task.client.esproj", "{613DA8D2-2199-0448-C053-19EB0840583B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aifutuerx_Task.Server", "aifutuerx_Task.Server\aifutuerx_Task.Server.csproj", "{3466ECB6-8F4E-4821-B1C0-453962B2B28D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{613DA8D2-2199-0448-C053-19EB0840583B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3466ECB6-8F4E-4821-B1C0-453962B2B28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3466ECB6-8F4E-4821-B1C0-453962B2B28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3466ECB6-8F4E-4821-B1C0-453962B2B28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3466ECB6-8F4E-4821-B1C0-453962B2B28D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BFFAF72-8F9F-489F-AA49-27CB4F8D6217}
+	EndGlobalSection
+EndGlobal

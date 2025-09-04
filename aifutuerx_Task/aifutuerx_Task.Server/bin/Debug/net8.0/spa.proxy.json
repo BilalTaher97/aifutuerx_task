@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:56719",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\..\\aifutuerx_task.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

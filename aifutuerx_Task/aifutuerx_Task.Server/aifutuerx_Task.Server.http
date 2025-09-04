@@ -1,0 +1,6 @@
+@aifutuerx_Task.Server_HostAddress = http://localhost:5251
+
+GET {{aifutuerx_Task.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
