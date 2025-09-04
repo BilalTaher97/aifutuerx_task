@@ -1,4 +1,4 @@
-﻿namespace KafanaTask.Server.DTOs
+﻿namespace aifutuerx_Task.Server.DTOs
 {
     public class LoginDTO
     {
