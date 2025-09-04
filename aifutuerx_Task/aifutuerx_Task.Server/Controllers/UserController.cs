@@ -1,5 +1,4 @@
 ﻿
-using KafanaTask.Service.Interface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Text;
@@ -7,6 +6,7 @@ using System.Security.Cryptography;
 using aifutuerx_Task.DTOs;
 using aifutuerx_Task.Server.DTOs;
 using aifutuerx_Task.Server.Models;
+using aifutuerx_Task.Service.Interface;
 
 
 namespace aifutuerx_Task.Server.Controllers
@@ -51,7 +51,6 @@ namespace aifutuerx_Task.Server.Controllers
                     return BadRequest(new { message = "Failed to Add User (Service returned false)" });
                 }
 
-                return Ok();
             }
             catch (Exception ex)
             {

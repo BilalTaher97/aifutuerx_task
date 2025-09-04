@@ -5,7 +5,7 @@ using aifutuerx_Task.DTOs;
 using aifutuerx_Task.Server.DTOs;
 
 
-namespace KafanaTask.Repository.Interface
+namespace aifutuerx_Task.Repository.Interface
 {
     public interface IUserRepository
     {

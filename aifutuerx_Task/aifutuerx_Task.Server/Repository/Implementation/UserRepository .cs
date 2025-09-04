@@ -1,6 +1,6 @@
 ﻿using aifutuerx_Task.DTOs;
 using aifutuerx_Task.Server.DTOs;
-using KafanaTask.Repository.Interface;
+using aifutuerx_Task.Repository.Interface;
 using aifutuerx_Task.Server.Models;
 using Microsoft.EntityFrameworkCore;
 

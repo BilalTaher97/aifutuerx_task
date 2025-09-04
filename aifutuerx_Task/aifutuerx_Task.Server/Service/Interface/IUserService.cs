@@ -2,7 +2,7 @@
 using aifutuerx_Task.Server.DTOs;
 using aifutuerx_Task.Server.Models;
 
-namespace KafanaTask.Service.Interface
+namespace aifutuerx_Task.Service.Interface
 {
     public interface IUserService
     {

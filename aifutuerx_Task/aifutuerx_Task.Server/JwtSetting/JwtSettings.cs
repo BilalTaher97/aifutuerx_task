@@ -1,4 +1,4 @@
-﻿namespace KafanaTask.Server.JwtSetting
+﻿namespace aifutuerx_Task.Server.JwtSetting
 {
     public class JwtSettings
     {

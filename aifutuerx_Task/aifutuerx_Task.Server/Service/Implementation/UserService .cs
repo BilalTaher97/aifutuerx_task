@@ -1,9 +1,10 @@
-﻿using aifutuerx_Task;
+﻿
+using aifutuerx_Task;
+using aifutuerx_Task.Repository.Interface;
 using aifutuerx_Task.Server.DTOs;
+using aifutuerx_Task.Server.JwtSetting;
 using aifutuerx_Task.Server.Models;
-using KafanaTask.Repository.Interface;
-using KafanaTask.Server.JwtSetting;
-using KafanaTask.Service.Interface;
+using aifutuerx_Task.Service.Interface;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;

@@ -7,9 +7,10 @@ using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using KafanaTask.Repository.Interface;
-using KafanaTask.Service.Interface;
-using KafanaTask.Server.JwtSetting;
+using aifutuerx_Task.Service.Interface;
+using aifutuerx_Task.Repository.Interface;
+using aifutuerx_Task.Server.JwtSetting;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
