@@ -1,1 +1,2 @@
 C:\Users\HP\source\repos\aifutuerx_Task\aifutuerx_task.client\obj\Debug\aifutuerx_task.client.esproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\aifutuerx_task\aifutuerx_Task\aifutuerx_task.client\obj\Debug\aifutuerx_task.client.esproj.CoreCompileInputs.cache

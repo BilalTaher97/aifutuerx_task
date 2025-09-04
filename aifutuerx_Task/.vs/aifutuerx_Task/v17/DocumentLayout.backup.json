@@ -1,81 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\repository\\implementation\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\repository\\implementation\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\repository\\implementation\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\service\\implementation\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\service\\implementation\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\service\\implementation\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerdto_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerdto_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\dtos\\customerdto_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\dtos\\customerstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\dtos\\customerstatusupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.server\\models\\dbaifutuerxtaskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.server\\models\\dbaifutuerxtaskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3466ECB6-8F4E-4821-B1C0-453962B2B28D}|aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj|solutionrelative:aifutuerx_task.server\\models\\dbaifutuerxtaskcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\register\\register.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\source\\repos\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\service\\all-services.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "AbsoluteMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|c:\\users\\hp\\onedrive\\desktop\\aifutuerx_task\\aifutuerx_task\\aifutuerx_task.client\\src\\app\\service\\all-services.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{613DA8D2-2199-0448-C053-19EB0840583B}|aifutuerx_task.client\\aifutuerx_task.client.esproj|solutionrelative:aifutuerx_task.client\\src\\app\\service\\all-services.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
@@ -86,11 +90,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Bookmark",
@@ -107,249 +115,245 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "login.component.ts",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts",
-              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\login\\login.component.ts",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\login\\login.component.ts",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-04T18:15:52.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "main.ts",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\main.ts",
-              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\main.ts",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\main.ts",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\main.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-04T18:15:28.001Z",
+              "WhenOpened": "2025-09-04T19:00:39.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "app-routing.module.ts",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts",
-              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\app-routing.module.ts",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts*",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\app-routing.module.ts*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\login\\login.component.ts",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\login\\login.component.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-04T18:13:58.814Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T18:15:52.581Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\index.html",
-              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\index.html",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\index.html",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\index.html",
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\main.ts",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\main.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-04T18:15:28.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-04T18:13:58.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\index.html",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\index.html",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-04T18:13:46.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.component.html",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.component.html",
               "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\app.component.html",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.component.html*",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\app.component.html*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-04T18:12:51.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Program.cs",
               "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Program.cs",
               "RelativeToolTip": "aifutuerx_Task.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:01:16.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerDTO_1.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:42:44.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository .cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:20:58.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:20:25.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:21:36.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserService .cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:22:18.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Controllers\\UserController.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T16:43:15.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\appsettings.json",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\appsettings.json",
-              "RelativeToolTip": "aifutuerx_Task.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-04T17:26:17.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T18:01:16.99Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
+              "Title": "CustomerDTO_1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerDTO_1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:42:55.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T17:42:44.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository .cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Repository\\Implementation\\UserRepository .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:20:58.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:20:25.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Service\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:21:36.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService .cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Service\\Implementation\\UserService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:22:18.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAYAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:35:59.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T16:43:15.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\appsettings.json",
+              "RelativeToolTip": "aifutuerx_Task.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-04T17:26:17.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "CustomerStatusUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:42:50.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T17:42:55.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:35:59.94Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DbaifutuerxTaskContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
-              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
-              "RelativeToolTip": "aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CustomerStatusUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\DTOs\\CustomerStatusUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T17:28:36.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T17:42:50.212Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "register.component.ts",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts",
-              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\register\\register.component.ts",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts",
-              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\register\\register.component.ts",
+              "Title": "DbaifutuerxTaskContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
+              "RelativeDocumentMoniker": "aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
+              "RelativeToolTip": "aifutuerx_Task.Server\\Models\\DbaifutuerxTaskContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-04T17:08:52.497Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:28:36.843Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "register.component.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts",
+              "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\register\\register.component.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\register\\register.component.ts",
+              "RelativeToolTip": "aifutuerx_task.client\\src\\app\\register\\register.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-04T17:08:52.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "all-services.service.ts",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
               "RelativeDocumentMoniker": "aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\aifutuerx_task\\aifutuerx_Task\\aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
               "RelativeToolTip": "aifutuerx_task.client\\src\\app\\Service\\all-services.service.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-09-04T17:09:46.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-04T17:09:46.842Z"
             }
           ]
         }
