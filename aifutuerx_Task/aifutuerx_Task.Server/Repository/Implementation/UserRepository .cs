@@ -1,12 +1,8 @@
-﻿using aifutuerx_Task.DTOs;
-using aifutuerx_Task.Server.DTOs;
-using aifutuerx_Task.Repository.Interface;
+﻿using aifutuerx_Task.Repository.Interface;
 using aifutuerx_Task.Server.Models;
 using Microsoft.EntityFrameworkCore;
 
-
-
-namespace aifutuerx_Task.Repository.Implemetnation
+namespace aifutuerx_Task.Repository.Implementation
 {
     public class UserRepository : IUserRepository
     {
@@ -17,54 +13,26 @@ namespace aifutuerx_Task.Repository.Implemetnation
             _context = context;
         }
 
-
-
-       
-
-        public async Task<User?> GetUserById(int Id)
+        public async Task<User> GetUserById(int id)
         {
-            var currentUser = await _context.Users.FindAsync(Id);
-
-            return currentUser;
+            return await _context.Users.FindAsync(id);
         }
 
-       
-
-       
-
-
-
-
-        public async Task<User?> UpdateStatusAsync(int id, string statusEn, string statusAr)
+        public async Task<User?> GetCustomerByEmail(string email)
         {
-            var customer = await _context.Users.FindAsync(id);
-            if (customer == null)
-                return null;
-
-            
-
-            await _context.SaveChangesAsync();
-
-            return customer;
+            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
         }
 
-
-        public async Task<bool> Add(User customer)
+        public async Task<bool> Add(User user)
         {
-            _context.Users.Add(customer);
+            _context.Users.Add(user);
             return await _context.SaveChangesAsync() > 0;
         }
 
-        public async Task<User> GetCustomerByEmail(string email)
+        public async Task<bool> UpdateAsync(User user)
         {
-
-            return await _context.Users.FirstOrDefaultAsync(x => x.Email == email);
-
-
+            _context.Users.Update(user);
+            return await _context.SaveChangesAsync() > 0;
         }
-
-        
-
-
     }
 }

@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg-color: #fafbfc;
+  --card-bg: #ffffff;
+  --text-color: #1a1f36;
+  --text-secondary: #8792a2;
+  --border-color: #e3e8ee;
+  --primary-color: #635BFF;
+  --input-bg: #ffffff;
+  --input-text: #1a1f36;
+  --input-placeholder: #8792a2;
+  --error-color: #f56565;
+  --success-text: #1a1f36;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --card-bg: #1e1e1e;
+  --text-color: #ffffff;
+  --text-secondary: #b0b0b0;
+  --border-color: #333333;
+  --primary-color: #635BFF;
+  --input-bg: #1e1e1e;
+  --input-text: #ffffff;
+  --input-placeholder: #b0b0b0;
+  --error-color: #f56565;
+  --success-text: #ffffff;
+}
+
+
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.login-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.login-header p {
+  color: var(--text-secondary);
+}
+
+.login-header h1 {
+  color: var(--text-color);
+}
+
+.submit-btn {
+  background-color: var(--primary-color);
+}
+

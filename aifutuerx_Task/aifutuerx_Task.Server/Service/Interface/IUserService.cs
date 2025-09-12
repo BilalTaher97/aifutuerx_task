@@ -13,7 +13,7 @@ namespace aifutuerx_Task.Service.Interface
 
 
         Task<User?> GetUserByIdAsync(int id);
-        Task<User?> UpdateStatusAsync(int id, string statusEn, string statusAr);
+        //Task<User?> UpdateStatusAsync(int id, string statusEn, string statusAr);
 
     }
 }

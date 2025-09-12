@@ -15,11 +15,11 @@ public partial class DbaifutuerxTaskContext : DbContext
     {
     }
 
-    public virtual DbSet<Task> Tasks { get; set; }
-
     public virtual DbSet<TaskStatus> TaskStatuses { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
+
+    public virtual DbSet<UserTask> UserTasks { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -27,28 +27,6 @@ public partial class DbaifutuerxTaskContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Task>(entity =>
-        {
-            entity.HasKey(e => e.TaskId).HasName("PK__Tasks__7C6949D128E836C7");
-
-            entity.Property(e => e.TaskId).HasColumnName("TaskID");
-            entity.Property(e => e.CreatedAt).HasDefaultValueSql("(getutcdate())");
-            entity.Property(e => e.StatusId)
-                .HasDefaultValue(1)
-                .HasColumnName("StatusID");
-            entity.Property(e => e.Title).HasMaxLength(255);
-            entity.Property(e => e.UserId).HasColumnName("UserID");
-
-            entity.HasOne(d => d.Status).WithMany(p => p.Tasks)
-                .HasForeignKey(d => d.StatusId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Tasks__StatusID__3F466844");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Tasks)
-                .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Tasks__UserID__3E52440B");
-        });
-
         modelBuilder.Entity<TaskStatus>(entity =>
         {
             entity.HasKey(e => e.StatusId).HasName("PK__TaskStat__C8EE2043AE3EDF52");
@@ -74,6 +52,28 @@ public partial class DbaifutuerxTaskContext : DbContext
                 .HasMaxLength(512)
                 .HasColumnName("Password_Hash");
             entity.Property(e => e.Phone).HasMaxLength(20);
+        });
+
+        modelBuilder.Entity<UserTask>(entity =>
+        {
+            entity.HasKey(e => e.TaskId).HasName("PK__Tasks__7C6949D128E836C7");
+
+            entity.Property(e => e.TaskId).HasColumnName("TaskID");
+            entity.Property(e => e.CreatedAt).HasDefaultValueSql("(getutcdate())");
+            entity.Property(e => e.StatusId)
+                .HasDefaultValue(1)
+                .HasColumnName("StatusID");
+            entity.Property(e => e.Title).HasMaxLength(255);
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+
+            entity.HasOne(d => d.Status).WithMany(p => p.UserTasks)
+                .HasForeignKey(d => d.StatusId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Tasks__StatusID__3F466844");
+
+            entity.HasOne(d => d.User).WithMany(p => p.UserTasks)
+                .HasForeignKey(d => d.UserId)
+                .HasConstraintName("FK__Tasks__UserID__3E52440B");
         });
 
         OnModelCreatingPartial(modelBuilder);

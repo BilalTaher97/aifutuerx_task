@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "aifutuerx_task.client\\aifutuerx_task.client.esproj",
+        "Action": "Start",
+        "DebugTarget": "localhost (Chrome)"
+      },
+      {
+        "Path": "aifutuerx_Task.Server\\aifutuerx_Task.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

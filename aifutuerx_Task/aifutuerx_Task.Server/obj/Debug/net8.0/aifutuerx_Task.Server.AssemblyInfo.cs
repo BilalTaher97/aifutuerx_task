@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("aifutuerx_Task.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f695088a698c61244dc281f75a0e6a6856ff786")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+675730254f19deb8a9063a2bbed1ba578043fabc")]
 [assembly: System.Reflection.AssemblyProductAttribute("aifutuerx_Task.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("aifutuerx_Task.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

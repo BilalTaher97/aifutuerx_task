@@ -19,5 +19,5 @@ public partial class User
 
     public string PasswordHash { get; set; } = null!;
 
-    public virtual ICollection<Task> Tasks { get; set; } = new List<Task>();
+    public virtual ICollection<UserTask> UserTasks { get; set; } = new List<UserTask>();
 }

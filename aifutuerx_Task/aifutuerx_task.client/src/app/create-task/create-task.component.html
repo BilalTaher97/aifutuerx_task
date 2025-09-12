@@ -1,0 +1,47 @@
+<div class="create-task-container">
+  <div class="form-card">
+    <h2 class="form-title">➕ Create New Task</h2>
+    <p class="form-subtitle">
+      Fill out the details to add a new task to your workflow
+    </p>
+
+    <form (ngSubmit)="addTask()" #taskForm="ngForm" class="task-form">
+      <div class="form-group">
+        <label class="form-label">Task Title</label>
+        <input [(ngModel)]="newTask.title"
+               name="title"
+               required
+               placeholder="Enter a clear and descriptive title..."
+               class="form-input" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Description</label>
+        <textarea [(ngModel)]="newTask.description"
+                  name="description"
+                  placeholder="Provide additional details and context..."
+                  class="form-textarea"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Current Status</label>
+        <select [(ngModel)]="newTask.statusId"
+                name="statusId"
+                class="form-select">
+          <option [value]="1">📋 Pending</option>
+          <option [value]="2">⚡ In Progress</option>
+          <option [value]="3">✅ Completed</option>
+        </select>
+      </div>
+
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary" [disabled]="taskForm.invalid">
+          Create Task
+        </button>
+
+        <button type="button" class="btn btn-secondary" onclick="window.location.href='/tasks'">Cancel</button>
+
+      </div>
+    </form>
+  </div>
+</div>

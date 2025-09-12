@@ -1,118 +1,82 @@
-
-<div class="container my-5">
-  <div class="card shadow-lg">
-    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
-      <h3 class="mb-0">{{ isArabic ? 'نموذج تسجيل عميل جديد' : 'New Customer Registration' }}</h3>
-      <button class="btn btn-sm btn-light" (click)="toggleLanguage()">
-        <i class="fas fa-language me-1"></i>
-        {{ isArabic ? 'English' : 'العربية' }}
-      </button>
+<div class="login-container">
+  <div class="login-card">
+    <div class="login-header">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="6" fill="#28a745" />
+          <path d="M8 12h16v2H8v-2zm0 4h16v2H8v-2zm0 4h10v2H8v-2z" fill="white" />
+        </svg>
+      </div>
+      <h1>Create Account</h1>
+      <p>Fill in the details to register</p>
     </div>
 
-    <div class="card-body">
-      <form [formGroup]="customerForm" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
-        <div class="row g-3">
+    <form class="login-form" [formGroup]="customerForm" (ngSubmit)="onSubmit()" novalidate>
+      <div class="input-group">
+        <input type="text" id="name" placeholder=" " formControlName="Name">
+        <label for="name">Full Name</label>
+        <span class="input-border"></span>
+      </div>
 
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'الاسم بالعربية' : 'Name in Arabic' }} <span class="text-danger">*</span></label>
-            <input type="text" class="form-control" formControlName="nameAr" [class.is-invalid]="customerForm.get('nameAr')?.invalid && customerForm.get('nameAr')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('nameAr')?.invalid && customerForm.get('nameAr')?.touched">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-          </div>
+      <div class="input-group">
+        <input type="email" id="email" placeholder=" " formControlName="Email">
+        <label for="email">Email Address</label>
+        <span class="input-border"></span>
+      </div>
 
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'الاسم بالإنجليزية' : 'Name in English' }} <span class="text-danger">*</span></label>
-            <input type="text" class="form-control" formControlName="nameEn" [class.is-invalid]="customerForm.get('nameEn')?.invalid && customerForm.get('nameEn')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('nameEn')?.invalid && customerForm.get('nameEn')?.touched">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-          </div>
+      <div class="input-group">
+        <input type="text" id="phone" placeholder=" " formControlName="Phone">
+        <label for="phone">Phone</label>
+        <span class="input-border"></span>
+      </div>
 
+      <div class="input-group">
+        <input type="date" id="dob" placeholder=" " formControlName="DateOfBirth">
+        <label for="dob">Date of Birth</label>
+        <span class="input-border"></span>
+      </div>
 
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'البريد الإلكتروني' : 'Email' }} <span class="text-danger">*</span></label>
-            <input type="email" class="form-control" formControlName="email" [class.is-invalid]="customerForm.get('email')?.invalid && customerForm.get('email')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('email')?.errors?.['required']">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-            <div class="invalid-feedback" *ngIf="customerForm.get('email')?.errors?.['email']">
-              {{ isArabic ? 'بريد إلكتروني غير صالح' : 'Invalid email format' }}
-            </div>
-          </div>
+      <div class="input-group">
+        <select id="gender" formControlName="Gender">
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
 
+      <div class="input-group">
+        <input [type]="showPassword ? 'text' : 'password'"
+               id="password"
+               placeholder=" "
+               formControlName="Password">
+        <label for="password">Password</label>
+        <button type="button" class="password-toggle" (click)="togglePassword()">
+          <svg class="eye-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M8 3C4.5 3 1.6 5.6 1 8c.6 2.4 3.5 5 7 5s6.4-2.6 7-5c-.6-2.4-3.5-5-7-5zm0 8.5A3.5 3.5 0 118 4.5a3.5 3.5 0 010 7zm0-5.5a2 2 0 100 4 2 2 0 000-4z"
+                  fill="currentColor" />
+          </svg>
+        </button>
+        <span class="input-border"></span>
+      </div>
 
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'رقم الهاتف' : 'Phone Number' }} <span class="text-danger">*</span></label>
-            <input type="tel" class="form-control" formControlName="phone" [class.is-invalid]="customerForm.get('phone')?.invalid && customerForm.get('phone')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('phone')?.errors?.['required']">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-            <div class="invalid-feedback" *ngIf="customerForm.get('phone')?.errors?.['pattern']">
-              {{ isArabic ? 'يجب أن يتكون من 10 أرقام' : 'Must be 10 digits' }}
-            </div>
-          </div>
-
-
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'تاريخ الميلاد' : 'Date of Birth' }} <span class="text-danger">*</span></label>
-            <input type="date" class="form-control" formControlName="dateOfBirth" [class.is-invalid]="customerForm.get('dateOfBirth')?.invalid && customerForm.get('dateOfBirth')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('dateOfBirth')?.invalid && customerForm.get('dateOfBirth')?.touched">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-          </div>
-
-
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'الجنس' : 'Gender' }} <span class="text-danger">*</span></label>
-            <div class="d-flex gap-3">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" formControlName="gender" value="male" id="male">
-                <label class="form-check-label" for="male">{{ isArabic ? 'ذكر' : 'Male' }}</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" formControlName="gender" value="female" id="female">
-                <label class="form-check-label" for="female">{{ isArabic ? 'أنثى' : 'Female' }}</label>
-              </div>
-            </div>
-            <div class="text-danger" *ngIf="customerForm.get('gender')?.invalid && customerForm.get('gender')?.touched">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'كلمة المرور' : 'Password' }} <span class="text-danger">*</span></label>
-            <input type="password" class="form-control" formControlName="password" [class.is-invalid]="customerForm.get('password')?.invalid && customerForm.get('password')?.touched">
-            <div class="invalid-feedback" *ngIf="customerForm.get('password')?.invalid && customerForm.get('password')?.touched">
-              {{ isArabic ? 'هذا الحقل مطلوب' : 'This field is required' }}
-            </div>
-          </div>
-
-
-          <div class="col-md-6">
-            <label class="form-label">{{ isArabic ? 'صورة العميل' : 'Customer Photo' }}</label>
-            <input type="file" #photoInput class="form-control" (change)="onFileChange($event)" accept="image/*">
-            <img [src]="photoPreview" class="img-thumbnail mt-2 photo-preview" *ngIf="photoPreview">
-          </div>
+      <button type="submit" class="submit-btn" [disabled]="customerForm.invalid || isLoading">
+        <span class="btn-text">{{ isLoading ? 'Registering...' : 'Register' }}</span>
+        <div class="btn-loader" *ngIf="isLoading">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="2" opacity="0.25" />
+            <path d="M16 9a7 7 0 01-7 7" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round">
+              <animateTransform attributeName="transform" type="rotate"
+                                dur="1s" values="0 9 9;360 9 9" repeatCount="indefinite" />
+            </path>
+          </svg>
         </div>
+      </button>
+    </form>
 
-        <div class="d-flex justify-content-end gap-2 mt-4">
-          <button type="reset" class="btn btn-outline-secondary px-4">
-            {{ isArabic ? 'إلغاء' : 'Cancel' }}
-          </button>
-          <button type="submit" class="btn btn-primary px-4" [disabled]="customerForm.invalid">
-            <i class="fas fa-save me-1"></i>
-            {{ isArabic ? 'حفظ' : 'Save' }}
-          </button>
-        </div>
-
-        <div class="mt-3 text-center">
-          <a routerLink="/Login" class="text-decoration-none">
-            {{ isArabic ? 'تسجيل دخول' : 'Login' }}
-          </a>
-        </div>
-
-      </form>
+    <div class="signup-link">
+      <span>Already have an account? </span>
+      <a routerLink="/Login">Login</a>
     </div>
   </div>
 </div>

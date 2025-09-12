@@ -1,4 +1,4 @@
-﻿:host {
+:host {
     max-width: 1280px;
     padding: 2rem;
     text-align: center;
@@ -11,4 +11,86 @@ th, td {
 
 table {
     margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+:root {
+  --bg-color: #f5f0e1;
+  --card-bg: #ffffff;
+  --text-color: #333333;
+  --button-bg: #ffc107;
+  --button-text: #ffffff;
+  --input-bg: #ffffff;
+  --input-border: #cccccc;
+  --link-color: #8b5e3c;
+  --accent-bg: #8b5e3c;
+}
+
+body.dark-mode {
+  --bg-color: #1f1f1f;
+  --card-bg: #2a2a2a;
+  --text-color: #f0f0f0;
+  --button-bg: #444444;
+  --button-text: #f0f0f0;
+  --input-bg: #3a3a3a;
+  --input-border: #555555;
+  --link-color: #ffc107;
+  --accent-bg: #ffc107;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color) !important;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control {
+  border-radius: 8px;
+  background-color: var(--input-bg) !important;
+  color: var(--text-color) !important;
+  border: 1px solid var(--input-border) !important;
+}
+
+  .form-control:focus {
+    background-color: var(--input-bg) !important;
+    color: var(--text-color) !important;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.1);
+  }
+
+button,
+.btn,
+.btn-primary,
+.btn-secondary,
+.btn-warning,
+.btn-dark,
+.btn-outline-brown {
+  background-color: var(--button-bg) !important;
+  color: var(--button-text) !important;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+i.fas {
+  color: var(--accent-bg);
 }

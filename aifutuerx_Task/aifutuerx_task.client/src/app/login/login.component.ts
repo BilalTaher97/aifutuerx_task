@@ -5,38 +5,34 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']  
+  styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
 
-  constructor(private service: AllServicesService, private router: Router) { }
-
-
-  language: 'en' | 'ar' = 'en';
-
- 
   loginModel = {
     email: '',
     password: '',
   };
 
- 
+  showPassword = false; 
+
+  constructor(private service: AllServicesService, private router: Router) { }
+
+  togglePassword() {
+    this.showPassword = !this.showPassword;
+  }
+
   onSubmit() {
     if (this.loginModel.email && this.loginModel.password) {
       this.service.login(this.loginModel.email, this.loginModel.password)
         .subscribe({
           next: (token) => {
             console.log('Login successful, token:', token);
+           
 
-            if (this.loginModel.email == "Admin@gmail.com") {
+            localStorage.setItem('token', token);
 
-              this.router.navigate(['/admin/customers']);
-            } else {
-
-              this.router.navigate(['/products']);
-            }
-
-            
+            this.router.navigate(['/tasks']);
           },
           error: (err) => {
             console.error('Login failed', err);
@@ -46,5 +42,11 @@ export class LoginComponent {
     } else {
       alert('Please Fill All Fields');
     }
+  }
+
+
+  onForgotPassword() {
+
+    this.router.navigate(['/forgotPassord']);
   }
 }

@@ -1,0 +1,126 @@
+
+<div class="logout-container">
+  <button class="btn btn-logout" (click)="logout()">Logout</button>
+</div>
+
+
+
+
+<div class="task-manager-container">
+  <div class="header">
+    <div class="header-content">
+      <h2 class="header-title">Task Manager</h2>
+      <p class="header-subtitle">Organize your work efficiently</p>
+    </div>
+  </div>
+  <div class="main-container">
+
+    <button class="btn btn-primary" (click)="exportTasksAsPdf()">
+      ⬇️ Download PDF
+    </button>
+
+
+    <div class="add-task-btn-wrapper">
+      <button class="btn btn-primary" routerLink="/createTask">
+        ➕ Add New Task
+      </button>
+    </div>
+
+    <div class="filter-container">
+      <button (click)="setFilter('all')" class="filter-button">
+        All Tasks
+      </button>
+      <button (click)="setFilter('completed')" class="filter-button completed">
+        Completed
+      </button>
+      <button (click)="setFilter('pending')" class="filter-button pending">
+        Pending
+      </button>
+      <button (click)="setFilter('inprogress')" class="filter-button inprogress">
+        In Progress
+      </button>
+    </div>
+
+    <div class="tasks-grid">
+      <div *ngFor="let task of tasks; let i = index" class="task-card-wrapper">
+        <div class="task-card-border">
+          <div class="task-card">
+
+            <ng-container *ngIf="editingTask?.taskId !== task.taskId; else editMode">
+              <div class="card-header">
+                <div class="status-dot"
+                     [class]="task.statusId === 1 ? 'pending' : task.statusId === 2 ? 'inprogress' : 'completed'">
+                </div>
+                <span class="task-number">
+                  #{{(i + 1).toString().padStart(3, '0')}}
+                </span>
+              </div>
+
+              <div class="task-content">
+                <h4 class="task-title">{{ task.title }}</h4>
+                <p class="task-description">{{ task.description }}</p>
+              </div>
+
+              <div>
+                <span class="status-badge"
+                      [class]="task.statusId === 1 ? 'pending' : task.statusId === 2 ? 'inprogress' : 'completed'">
+                  <span class="status-indicator"
+                        [class]="task.statusId === 1 ? 'pending' : task.statusId === 2 ? 'inprogress' : 'completed'">
+                  </span>
+                  {{ statusMap[task.statusId] }}
+                </span>
+
+              </div>
+
+              <div class="card-actions">
+                <button *ngIf="task.statusId !== 3"
+                        (click)="startEdit(task)"
+                        class="action-button edit">
+                  ✏️ Edit
+                </button>
+                <button (click)="deleteTask(task.taskId)" class="action-button delete">
+                  🗑️ Delete
+                </button>
+              </div>
+            </ng-container>
+
+            <ng-template #editMode>
+              <div class="edit-form">
+                <div class="form-group">
+                  <label class="form-label">Title</label>
+                  <input [(ngModel)]="editingTask.title" class="form-input" />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Description</label>
+                  <input [(ngModel)]="editingTask.description" class="form-input" />
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Status</label>
+                  <select [(ngModel)]="editingTask.statusId" class="form-select">
+                    <option [value]="1">Pending</option>
+                    <option [value]="2">In Progress</option>
+                    <option [value]="3">Completed</option>
+                  </select>
+                </div>
+
+                <div class="edit-actions">
+                  <button (click)="saveEdit()" class="save-button">💾 Save</button>
+                  <button (click)="cancelEdit()" class="cancel-button">❌ Cancel</button>
+                </div>
+              </div>
+            </ng-template>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="tasks.length === 0" class="empty-state">
+      <div class="empty-icon">📄</div>
+      <h3 class="empty-title">No tasks found</h3>
+      <p class="empty-description">Add your first task to get started organizing your work</p>
+    </div>
+  </div>
+</div>

@@ -42,11 +42,7 @@ namespace aifutuerx_Task.Service.Implemetnation
 
 
 
-        public async Task<User?> UpdateStatusAsync(int id, string statusEn, string statusAr)
-        {
-            return await _customerRepository.UpdateStatusAsync(id, statusEn, statusAr);
-        }
-
+        
 
         public async Task<bool> AddUser(User user)
         {
@@ -85,9 +81,9 @@ namespace aifutuerx_Task.Service.Implemetnation
 
         private bool VerifyPassword(string enteredPassword, string storedHash)
         {
-            string enteredHash = ComputeSha256Hash(enteredPassword);
-            return enteredHash == storedHash;
+            return BCrypt.Net.BCrypt.Verify(enteredPassword, storedHash);
         }
+
 
 
         private string GenerateJwtToken(User customer)
